@@ -1,0 +1,5 @@
+textures/
+smpl_data.npz
+.idea/
+*.pyc
+*.pyc
