@@ -79,9 +79,14 @@ In the main script then there is a call to `get_processor` that returns `process
 
 Few lines below you find `res = processor.process_sample(sample, frame, smpl_body_list)`.
 
-### Citation
+__________
+### CITATION
+If you find this work useful please cite our work as
 
-If you find the work useful please consider citing our work with ..
+```
+
+```
+__________
 
 ### Acknowledgment
 Code based on
