@@ -201,13 +201,15 @@ def write_usd(temppath, filepath, filename, with_cache, export_animation=True, s
         ef = bpy.context.scene.frame_end
 
     print(f"\nExporting usd to {filepath}\n")
+
+    print(f"With blendshapes = {not with_cache}")
     bpy.ops.wm.usd_export(filepath=os.path.join(temppath, filename + ".usd"),
                 filemode=8, display_type='DEFAULT', sort_method='DEFAULT',
                 selected_objects_only=True, visible_objects_only=True, export_animation=export_animation,
                 export_hair=True, export_vertices=True, export_vertex_colors=True,
                 export_vertex_groups=True, export_face_maps=True, export_uvmaps=True, export_normals=True,
                 export_transforms=True, export_materials=True, export_meshes=True, export_lights=True,
-                export_cameras=False, export_blendshapes=with_cache,
+                export_cameras=False, export_blendshapes=(not with_cache),
                 export_curves=True, export_particles=True, export_armatures=True, use_instancing=False,
                 evaluation_mode='VIEWPORT', default_prim_path=f"/body_{filename}",
                 root_prim_path=f"/body_{filename}", material_prim_path=f"/body_{filename}/materials",
