@@ -9,7 +9,7 @@ The script is capable of managing mesh caches and skeletal animations. It can ex
 
 ### Installation instructions 
 
-Install blender connector from the Omniverse launcher. This code was tested with versions 3.4.0-usd.101.0 (main branch) and (3.1.0-usd.100.1.10, checkout commit `8b45a952d748c2215c2c61f3adfa5be65828d217`). For the paper we used 3.1.0-usd.100.1.10.
+Install blender connector from the Omniverse launcher. This code was tested with versions 3.4.0-usd.101.0 (main branch). For the paper work we used 3.1.0-usd.100.1.10.
 
 Some limitations of 3.1.0-usd.100.1.10:
 - you might need to use the mesh cache modifier instead of the blendshape. There is a _minimal_ difference that arise when loading the animation in Omniverse's products. 
