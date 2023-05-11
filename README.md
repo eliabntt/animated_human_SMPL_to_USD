@@ -79,6 +79,10 @@ In the main script then there is a call to `get_processor` that returns `process
 
 Few lines below you find `res = processor.process_sample(sample, frame, smpl_body_list)`.
 
+### Some notes
+The exported USDs will have 24 fps as default. We did not investigate this much. You can change this by using the usd converter to text and change the 4th line to 30 fps. This value will influence how the mesh will be loaded into the simulation by the scripts used in GRADE.
+In our work we did NOT change this value.
+
 __________
 ### CITATION
 If you find this work useful please cite our work as
