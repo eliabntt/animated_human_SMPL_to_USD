@@ -83,22 +83,16 @@ Few lines below you find `res = processor.process_sample(sample, frame, smpl_bod
 The exported USDs will have 24 fps as default. We did not investigate this much. You can change this by using the usd converter to text and change the 4th line to 30 fps. This value will influence how the mesh will be loaded into the simulation by the scripts used in GRADE.
 In our work we did NOT change this value.
 
+
+_______
+
+### LICENSING
+
+For licensing information, please refer to the main repository located [here](https://github.com/eliabntt/GRADE-RR/).
 __________
 ### CITATION
-If you find this work useful please cite our work as
+If you find this work useful please cite our work based on [this](https://github.com/eliabntt/GRADE-RR#citation) information
 
-```
-@misc{https://doi.org/10.48550/arxiv.2303.04466,
-  doi = {10.48550/ARXIV.2303.04466},
-  url = {https://arxiv.org/abs/2303.04466},
-  author = {Bonetto, Elia and Xu, Chenghao and Ahmad, Aamir},
-  keywords = {Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {GRADE: Generating Realistic Animated Dynamic Environments for Robotics Research},
-  publisher = {arXiv},
-  year = {2023},
-  copyright = {arXiv.org perpetual, non-exclusive license}
-}
-```
 __________
 
 ### Acknowledgment
