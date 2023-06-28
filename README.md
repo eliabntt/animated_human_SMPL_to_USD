@@ -39,7 +39,9 @@ Note that AMASS will process the folder directly (by querying subfolders) differ
 
 `sample_id` if is an ID it will process that ID otherwise you can set it to all or leave it empty and it will process the whole set of data.
 
-If running multiple loops the code will automatically periodically _clean_ the whole simulation environment including textures and materials to avoid crashing.
+`last_sample` is used in case `sample_id` is empty and will be used to signal where to restart the processing.
+
+If running multiple generations the code will automatically periodically _clean_ the whole simulation environment including textures and materials to avoid crashing.
 
 - Cloth3D single sample example `--python-use-system-env --python-exit-code 0 --python start_blend_debug.py -- generate_sequence.py --dataset cloth3d --output_dir outdir --samples_dir cloth3d\train --last_sample 01056 --parent_path D:\generate_people\data_folder\ --sample_id 01056`
 
